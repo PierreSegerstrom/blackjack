@@ -1,12 +1,9 @@
-
-package blackjack;
-
 import java.util.Stack;
 import java.util.Collections;
 
 public class Deck {
     
-    Stack<Card> cards = new Stack();
+    Stack<Card> cards = new Stack<>();
     
     Deck() {
         resetDeck();

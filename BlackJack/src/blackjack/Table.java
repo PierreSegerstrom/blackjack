@@ -1,6 +1,3 @@
-
-package blackjack;
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
@@ -20,9 +17,9 @@ import javax.sound.sampled.Clip;
 public class Table extends JPanel implements java.awt.event.MouseListener{
     
     private SpriteSheet ss = new SpriteSheet();
-    private ArrayList<Chip> chips = new ArrayList();
-    private ArrayList<Button> bbuttons = new ArrayList();
-    private ArrayList<Button> rbuttons = new ArrayList();
+    private ArrayList<Chip> chips = new ArrayList<>();
+    private ArrayList<Button> bbuttons = new ArrayList<>();
+    private ArrayList<Button> rbuttons = new ArrayList<>();
     private boolean playing = false;
     private int roundOver = 0;
     private boolean coverDouble = false;

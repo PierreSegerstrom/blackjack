@@ -1,6 +1,3 @@
-
-package blackjack;
-
 public class Card{
     private int suit, number, value;
     

@@ -1,6 +1,3 @@
-
-package blackjack;
-
 public class Chip{
     private int x, value, number;
     private int y = 562;
